@@ -2,7 +2,6 @@ import scrapy
 from scrapy.http import Request
 import datetime
 import re
-from scrapy.crawler import CrawlerProcess
 
 
 class ScraperSpider(scrapy.Spider):
