@@ -10,8 +10,7 @@ process = CrawlerProcess(
         'USER_AGENT': "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240",
         "DOWNLOAD_DELAY": 10,
         "CONCURRENT_REQUESTS": 1,
-        'HTTPCACHE_ENABLED': True,
-        'LOG_FILE': "scrap-log.txt"
+        'HTTPCACHE_ENABLED': True
     }
 )
 process.crawl(ScraperSpider)
